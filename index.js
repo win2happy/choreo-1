@@ -5,7 +5,7 @@ const path = require('path');
 const axios = require('axios');
 const { exec } = require('child_process');
 const FILE_PATH = process.env.FILE_PATH || './temp';
-const port = process.env.PORT || 80; 
+const port = process.env.PORT || 8080; 
 
 if (!fs.existsSync(FILE_PATH)) {
   fs.mkdirSync(FILE_PATH);
